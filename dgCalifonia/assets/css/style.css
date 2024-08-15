@@ -3570,8 +3570,8 @@ iframe {
 }
 .burger-icon.burger-close {
   position: fixed;
-  top: 16px;
-  right: 30px;
+  top: 0px;
+  right: 50px;
 }
 .burger-icon.burger-close > span.burger-icon-top {
   display: none;
@@ -3589,7 +3589,7 @@ iframe {
 .burger-icon > span::before,
 .burger-icon > span::after {
   position: absolute;
-  top: 0;
+  top: 10;
   left: 0;
   width: 100%;
   height: 100%;
